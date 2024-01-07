@@ -1,0 +1,21 @@
+nav li {
+    list-style: none;
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+nav li:hover {
+    background-color: aqua;
+    font-weight: 700;
+    border: 2px solid plum;
+}
+
+nav ul {
+    display: flex;
+}
